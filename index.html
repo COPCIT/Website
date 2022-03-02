@@ -1,0 +1,125 @@
+<html>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+<head>
+<title>This is my first website</title>
+</head>
+<header>
+<h1>Welcome to my website</h1>
+</Header>
+
+
+
+
+
+
+<!--this is the CSS-->
+
+<Section>
+<nav>
+<ul>
+<a href="http://www.youtube.com">YouTube</a>
+<a href="http://www.facebook.com">Facebook</a>
+<a href="http://www.microsoft.com">Microsoft</a>
+</ul>
+</Nav>
+
+<body>
+<button onclick="Mattsprogram()">Press me</button>
+<script>
+function Mattsprogram() {
+  alert("I am an alert box!");
+}
+
+</script>
+<h1><em>Welcome!</h1>
+<h2><small>HELLO</h2>
+
+<p>My name is Matt and this is my first, well second website. I have done the HTML for this all by myself. This is a great and fun way of making your own website which you have to code yourself. Of course this won’t be the best thing you’ll see with amazing layout and animation but its all done from scratch.  </p>
+
+
+
+<center>
+
+<img width="560" height="315" src="image.jpeg" alt="sorry, cant find this image!">
+
+<img width="560" height="315" src="http://2.bp.blogspot.com/-AUMwo8RvUyQ/TmaFpNAyOvI/AAAAAAAAFZw/oeBjhYsaOHI/s640/cute+funny+dogs-2.png">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hr06WREHV6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/28xjtYY3V3Q" 
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KNMbDIKJ6T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1RBvKAXvOcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+</body>
+</section>
